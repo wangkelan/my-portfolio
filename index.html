@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/hello-1.png" alt="王科蓝" width="80">
+        </figure>
+        
+        <div class="info-content">
+          <h1 class="name" title="王科蓝">王科蓝</h1>
+          
+          <!-- 添加英文名字 -->
+          <p class="english-name">Wang Kelan</p>
+
+        
+          <p class="title">交互设计</p>
+        </div>
+        
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="419438976@qq.com" class="contact-link">419438976@qq.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:15308343305" class="contact-link">15308343305</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-05-22">May 22, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Beijing</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link="about">About</button>
+          </li>
+        
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">Resume</button>
+          </li>
+        
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
+          </li>
+        
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="letter">Letter of Self-Recommendation</button>
+          </li>
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about-content" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            我是来自北京印刷学院志兴实验班的数字媒体艺术专业学生。在校期间，我积极参与各种设计竞赛，荣获多项荣誉。擅长交互设计，动效设计，平面设计，影视剪辑。熟练掌握软件：Touchdesigner、PS、AI、PR、AE、C4D……并且会一些编程技术与AIGC技术，能够将将其与设计融会贯通，成为辅助设计的有利工具。
+          </p>
+        
+          <p>
+            在完美世界游戏和四川美术学院环境设计第一工作室的实习经历中，我参与了多个实际项目，从需求分析到最终交付，积累了丰富的实战经验。我擅长将抽象的概念转化为直观的视觉表达，用设计讲故事。
+          </p>
+        </section>
+        
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Practical Experience</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">完美世界游戏UI设计</h4>
+
+                <p class="service-item-text">
+                 在完美世界游戏工作室设计卡牌游戏界面，以及交互流程动画分镜的绘制
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">四川美术学院环境设计第一工作室</h4>
+
+                <p class="service-item-text">
+                  负责视觉设计，参与0-1孵化，打造神秘夜郎景区，使用数字艺术与当地历史文化结合，推动重庆万盛夏日避暑
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">中华巨匠绘本原画设计</h4>
+
+                <p class="service-item-text">
+                  参与中华巨匠连载绘本原创设计，负责人物，场景原创手绘
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI数字展演编创</h4>
+
+                <p class="service-item-text">
+                  与同学共同从前期策展、施工搭建、展品制作到最后落地展演，自主策划完成了一场长达15天的艺术展览
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Personal Ability</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+            
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/td.png" alt="TouchDesigner" width="60" data-testimonials-avatar>
+                </figure>
+            
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>TouchDesigner</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    具备精湛的TouchDesigner运用能力，擅长制作动态海报、音画互动等视觉效果。熟练掌握Kinect、LeapMotion等体感设备的集成，通过Python脚本实现实时交互。深入探索开源社区，结合ChatGPT API开发多端口通讯功能，拓展了TouchDesigner在互动艺术领域的应用边界。
+                  </p>
+                </div>
+            
+              </div>
+            </li>
+            
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+            
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/arduino.png" alt="Arduino" width="60" data-testimonials-avatar>
+                </figure>
+            
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Arduino</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    我是一名热衷于Arduino爱好者，曾利用Arduino开发了一款智能植物浇水系统，通过土壤湿度传感器和继电器实现自动浇水。此外，我还深入研究了Arduino与物联网平台的集成，成功将多个Arduino设备接入云端，实现远程监控和控制。
+                  </p>
+                </div>
+            
+              </div>
+            </li>
+            
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+            
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ps.png" alt="PS" width="60" data-testimonials-avatar>
+                </figure>
+            
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>PS</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    具备扎实的Photoshop基础，熟练掌握人像修容、抠图、蒙版、图层等技术，能够进行精细的图像处理。具有海报设计、VI/UI设计经验，熟悉色彩搭配、版式设计、交互设计等。擅长板绘，可进行概念设计、插画创作。
+                  </p>
+                </div>
+            
+              </div>
+            </li>
+            
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+            
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/AI-PNG.png" alt="AI" width="60" data-testimonials-avatar>
+                </figure>
+            
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AI</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    具备扎实的矢量图形设计基础，熟练掌握Illustrator各项工具，包括钢笔工具、形状工具、渐变工具等。精通路径操作、蒙版运用、色彩管理等技术，能够进行精细的矢量图形绘制和编辑。
+                  </p>
+                </div>
+            
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ae.png" alt="AE" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AE</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    熟练掌握After Effects的动画制作和特效设计，能够使用表达式和插件制作复杂的动画效果，擅长视频后期处理及动态视觉效果的创作。
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/c4d.jpg" alt="C4D" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>C4D</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    具备Cinema 4D的三维建模、材质、灯光和动画技能，能够制作高质量的3D渲染效果。擅长进行产品演示、动画短片以及场景搭建等设计工作。
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Python.png" alt="Programming" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>编程</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    具备多种编程语言的基础和项目经验，熟练掌握Python、JavaScript、Css等语言，能够开发互动装置、网页应用及其他数字媒体项目。
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/cet.png" alt="English" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>英语能力</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    具有良好的英语听说读写能力，并且通过了四六级测试.四级：467 六级：451
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/td.png" alt="TouchDesigner" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+        - #Personal Honor
+      -->
+
+      <section class="personal-honor">
+        <h3 class="h3 service-title">Personal Honor</h3>
+
+        <ul class="honor-list">
+
+          <li class="honor-item">第十届中国而设计展览入选</li>
+          <li class="honor-item">新生一等奖学金</li>
+          <li class="honor-item">学业奖学金</li>
+          <li class="honor-item">入选学院志兴实验班</li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">北京印刷学院BIGC</h4>
+
+              <span>2021-2025</span>
+
+              <p class="timeline-text">
+               专业为数字媒体艺术，大二入选志兴实验班，进行多项综合培养。
+               主要方向为：交互设计，信息可视化设计，智能装置设计
+              </p>
+
+            </li>
+
+           
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">北京完美世界游戏</h4>
+
+              <span>2024年3月-6月</span>
+
+              <p class="timeline-text">
+                负责卡牌游戏《让野人飞》中UI设计，2D风格化，魔性恶搞爆笑，玩法类似咸鱼之王，但美术资产大很多，美术品质很高且玩法有更多不同，已经做过几轮测试，现已过审。
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">四川美术学院环境设计第一工作室</h4>
+
+              <span>2021年7 月—2023 年7月</span>
+
+              <p class="timeline-text">
+                参与 0-1 孵化，打造神秘夜郎景区，使用数字艺术与当地历史文化结合，推动重庆万盛夏日避暑
+                重庆九凤山景区前期墙绘设计，方案效果图绘制
+              </p>
+
+           
+
+          </ol>
+
+
+        </section>
+        <!-- 校内经历时间线 -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Campus Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">“AI寓数”字艺术编创展览</h4>
+
+              <span>2024年3月-2024年7月</span>
+
+              <p class="timeline-text">
+               利用新材料：铁磁流体、深渊镜、全息材料……新技术：chatgptapi、opencv、touchdesigner与编程……和同学共同从前期策展、施工搭建、展品制作到最后落地展演，自主策划完成了一场长达15天的艺术展览。
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">北京中轴线纹样设计 </h4>
+
+              <span>2024年4月-2023年7月</span>
+
+              <p class="timeline-text">
+                参与北京中轴线纹样设计
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">中华巨匠绘本原画设计 </h4>
+
+              <span>2023年9月-2023年12 月</span>
+
+              <p class="timeline-text">
+                原创水彩风手绘，结合故事原创画面中人物与场景，绘本内容美术资源丰富
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">北京“中轴线”申遗项目设计 </h4>
+
+              <span>2023年4月-2023年11月</span>
+
+              <p class="timeline-text">
+                参与北京中轴线游戏设计，基于北京中轴线起点天坛，设计一款交互类明信片。将集卡剧情游戏与文创产品结合，并在初期制作出了纸模型供玩家体验在之后不断完善，结合Unity制作出了游戏demo。
+              </p>
+
+            </li>
+           
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Visual dynamic effect design</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Interactive designdesign</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">3D modeling</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Video editing</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+   <!-- #PORTFOLIO -->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Interaction design</button> <!-- 修改这里 -->
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Visual dynamic effect</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>graphic design</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Modeling/Product design</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Interaction design</button> <!-- 修改这里 -->
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Visual dynamic effect</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>graphic design</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Modeling/Product design</button>
+        </li>
+
+      </ul>
+      
+
+
+    </div>
+
+
+    <ul class="project-list">
+    </li>
+    <li class="project-item active" data-filter-item data-category="Interaction design">
+      <a href="https://www.bilibili.com/video/BV1Qw1CY8EMd/?spm_id_from=333.999.0.0&vd_source=5a5710d97e57bf6b77a748aaad308d93" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+    
+          <img src="./assets/images/show1.jpg" alt="智能展演编创" loading="lazy">
+        </figure>
+    
+        <h3 class="project-title">智能展演编创</h3>
+    
+        <p class="project-category">Interaction design</p>
+      </a>
+    </li>
+    <li class="project-item active" data-filter-item data-category="Interaction design">
+      <a href="https://www.bilibili.com/video/BV1f21kY6EJf/?spm_id_from=333.999.0.0&vd_source=5a5710d97e57bf6b77a748aaad308d93" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+    
+          <img src="./assets/images/Intelligent light and shadow design.jpg" alt="智能光影设计" loading="lazy">
+        </figure>
+    
+        <h3 class="project-title">智能光影设计</h3>
+    
+        <p class="project-category">Interaction design</p>
+      </a>
+    </li>
+    <li class="project-item active" data-filter-item data-category="Interaction design">
+      <a href="./assets/Work picture/皇帝祈雨一日游.pptx" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+    
+          <img src="./assets/images/ar1.jpg" alt="北京中轴线——天坛ar明信片" loading="lazy">
+        </figure>
+    
+        <h3 class="project-title">北京中轴线——天坛ar明信片</h3>
+    
+        <p class="project-category">Interaction design</p>
+      </a>
+    </li>
+      <li class="project-item active" data-filter-item data-category="Interaction design">
+        <a href="./assets/images/bigdata.jpg" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+      
+            <img src="./assets/images/bigdata.jpg" alt="大数据窥探隐私装置" loading="lazy">
+          </figure>
+      
+          <h3 class="project-title">大数据窥探隐私装置</h3>
+      
+          <p class="project-category">Interaction design</p>
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item data-category="Interaction design">
+        <a href="https://www.bilibili.com/video/BV1ZS1kYBEL3/?spm_id_from=333.999.0.0&vd_source=5a5710d97e57bf6b77a748aaad308d93" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+      
+            <img src="./assets/images/skin.png" alt="大健康与幸福社会互动装置" loading="lazy">
+          </figure>
+      
+          <h3 class="project-title">大健康与幸福社会互动装置</h3>
+      
+          <p class="project-category">Interaction design</p>
+        </a>
+      </li>
+      
+     
+      <li class="project-item active" data-filter-item data-category="Interaction design">
+        <a href="https://www.bilibili.com/video/BV1Qw1CY8EZ7/?spm_id_from=333.999.0.0" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+      
+            <img src="./assets/images/AR2.png" alt="AR海报制作" loading="lazy">
+          </figure>
+      
+          <h3 class="project-title">AR海报制作</h3>
+      
+          <p class="project-category">Interaction design</p>
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item data-category="Interaction design">
+        <a href="https://www.bilibili.com/video/BV1Qw1CY8EWi/?spm_id_from=333.999.0.0" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+      
+            <img src="./assets/images/game1.jpg" alt="AR沉浸式互动解密游戏" loading="lazy">
+          </figure>
+      
+          <h3 class="project-title">AR沉浸式互动解密游戏</h3>
+      
+          <p class="project-category">Interaction design</p>
+        </a>
+      
+      <li class="project-item active" data-filter-item data-category="Interaction design">
+        <a href="https://space.bilibili.com/80320630/channel/seriesdetail?sid=4416446&ctype=0" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+      
+            <img src="./assets/images/td3.png" alt="TD体感互动" loading="lazy">
+          </figure>
+      
+          <h3 class="project-title">TD体感互动</h3>
+      
+          <p class="project-category">Interaction design</p>
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item data-category="graphic design">
+        <a href="./assets/pdf/《天才少年韩公廉》.pdf" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/cartoon books1.png" alt="fundo" loading="lazy">
+          </figure>
+          <h3 class="project-title">中华巨匠绘本原画设计</h3>
+          <p class="project-category">graphic design</p>
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item data-category="graphic design">
+        <a href=".\assets\Work picture\ui design\1.png" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/perfact world1.png" alt="graphic design" loading="lazy">
+          </figure>
+      
+          <h3 class="project-title">游戏UI设计</h3>
+          <p class="project-category">graphic design</p>
+      
+        </a>
+      </li>
+      
+   
+    
+    
+    
+            
+          
+            
+            
+      <li class="project-item active" data-filter-item data-category="graphic design">
+        <a href="./assets/images/ai%20ui1.png" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/ai ui1.png" alt="ai辅助游戏界面设计" loading="lazy">
+          </figure>
+          <h3 class="project-title">ai辅助游戏界面设计</h3>
+          <p class="project-category">graphic design</p>
+        </a>
+      </li>
+      
+      <li class="project-item active" data-filter-item data-category="graphic design">
+        <a href="./assets/pdf/云岗乐舞VI手册设计.pdf" target="_blank">
+      
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+      
+            <img src="./assets/images/VI.png" alt="fundo" loading="lazy">
+          </figure>
+      
+          <h3 class="project-title">云冈石窟VI设计</h3>
+      
+          <p class="project-category">graphic design</p>
+      
+        </a>
+      </li>
+      
+
+      
+      
+      <li class="project-item active" data-filter-item data-category="graphic design">
+        <a href="#" onclick="openImagePreview('AI', 1); return false;">
+            <figure class="project-img">
+                <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/AI.jpg" alt="fundo" loading="lazy">
+            </figure>
+            <h3 class="project-title">AI 图像设计</h3>
+            <p class="project-category">graphic design</p>
+        </a>
+    </li>
+    
+    <li class="project-item active" data-filter-item data-category="graphic design">
+        <a href="#" onclick="openImagePreview('poster design', 1); return false;">
+            <figure class="project-img">
+                <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/post1.png" alt="fundo" loading="lazy">
+            </figure>
+            <h3 class="project-title">海报设计</h3>
+            <p class="project-category">graphic design</p>
+        </a>
+    </li>
+    
+    <li class="project-item active" data-filter-item data-category="graphic design">
+        <a href="#" onclick="openImagePreview('information visualization design', 1); return false;">
+            <figure class="project-img">
+                <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/Information visualization design.jpg" alt="fundo" loading="lazy">
+            </figure>
+            <h3 class="project-title">信息可视化设计</h3>
+            <p class="project-category">graphic design</p>
+        </a>
+    </li>
+    
+    <!-- Modal for image preview -->
+    <div id="imagePreviewModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000;">
+        <div style="position:relative; margin:auto; top:50px; width:80%; max-width:600px; text-align:center;">
+            <img id="modalImage" src="" alt="Image Preview" style="width:100%; height:auto; max-height:80vh;">
+    
+            <!-- Close button -->
+            <button style="position:absolute; top:10px; right:10px; background:#ff4c4c; color:white; font-size:20px; border:none; cursor:pointer; border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);" onclick="closeImagePreview()">X</button>
+    
+            <!-- Next and Previous buttons -->
+            <button style="position:absolute; top:50%; left:10px; transform:translateY(-50%); color:white; font-size:18px; background:#333; border:none; padding:10px; cursor:pointer; border-radius:50%; width:50px; height:50px; display:flex; align-items:center; justify-content:center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);" onclick="prevImage()">&#10094;</button>
+            <button style="position:absolute; top:50%; right:10px; transform:translateY(-50%); color:white; font-size:18px; background:#333; border:none; padding:10px; cursor:pointer; border-radius:50%; width:50px; height:50px; display:flex; align-items:center; justify-content:center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);" onclick="nextImage()">&#10095;</button>
+        </div>
+    </div>
+    
+    <script>
+        let currentImageIndex = 1;
+        let totalImages = 0;
+        let currentCategory = '';
+    
+        function openImagePreview(category, index) {
+            currentCategory = category;
+            currentImageIndex = index;
+    
+            // Set total images based on category
+            switch (category) {
+                case 'AI':
+                    totalImages = 9; // 9 images for AI category (1.png to 9.png)
+                    break;
+                case 'poster design':
+                    totalImages = 3; // 3 images for poster design category (1.png to 3.png)
+                    break;
+                case 'information visualization design':
+                    totalImages = 2; // 2 images for information visualization category (1.jpg to 2.jpg)
+                    break;
+                default:
+                    totalImages = 0; // Default case
+                    break;
+            }
+    
+            updateModalImage();
+            document.getElementById('imagePreviewModal').style.display = 'block';
+        }
+    
+        function closeImagePreview() {
+            document.getElementById('imagePreviewModal').style.display = 'none';
+        }
+    
+        function nextImage() {
+            currentImageIndex = (currentImageIndex % totalImages) + 1; // Loop through images
+            updateModalImage();
+        }
+    
+        function prevImage() {
+            currentImageIndex = (currentImageIndex - 2 + totalImages) % totalImages + 1; // Loop backwards
+            updateModalImage();
+        }
+    
+        function updateModalImage() {
+            let imagePath;
+    
+            if (currentCategory === 'AI') {
+                imagePath = `./assets/Work picture/${currentCategory}/${currentImageIndex}.png`; // Path for AI images
+            } else if (currentCategory === 'poster design') {
+                imagePath = `./assets/Work picture/${currentCategory}/${currentImageIndex}.png`; // Path for poster design images
+            } else if (currentCategory === 'information visualization design') {
+                imagePath = `./assets/Work picture/${currentCategory}/${currentImageIndex}.jpg`; // Path for information visualization images
+            } else {
+                imagePath = ''; // Default case
+            }
+    
+            document.getElementById('modalImage').src = imagePath;
+        }
+    </script>
+    
+      
+      
+      
+      
+     
+      
+      
+      
+    
+    <li class="project-item active" data-filter-item data-category="Visual dynamic effect">
+      <a href="https://www.bilibili.com/video/BV1an1kYbEYY/?spm_id_from=333.999.0.0" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+    
+          <img src="./assets/images/Dynamic poster.jpg" alt="基于AE动态海报" loading="lazy">
+        </figure>
+    
+        <h3 class="project-title">基于AE动态海报</h3>
+    
+        <p class="project-category">Visual dynamic effect</p>
+      </a>
+    </li>
+    <li class="project-item active" data-filter-item data-category="Visual dynamic effect">
+      <a href="https://www.bilibili.com/video/BV1gW1kY4EJ1/?spm_id_from=333.999.0.0&vd_source=5a5710d97e57bf6b77a748aaad308d93" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+    
+          <img src="./assets/images/woman.jpg" alt="让古画动起来" loading="lazy">
+        </figure>
+    
+        <h3 class="project-title">让古画动起来</h3>
+    
+        <p class="project-category">Visual dynamic effect</p>
+      </a>
+    </li>
+    <li class="project-item active" data-filter-item data-category="Visual dynamic effect">
+      <a href="https://www.bilibili.com/video/BV1gW1kY4EJ1/?spm_id_from=333.999.0.0&vd_source=5a5710d97e57bf6b77a748aaad308d93" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+    
+          <img src="./assets/images/flower.jpg" alt="多屏互动创意小视频" loading="lazy">
+        </figure>
+    
+        <h3 class="project-title">多屏互动创意小视频</h3>
+    
+        <p class="project-category">Visual dynamic effect</p>
+      </a>
+    </li>
+    <li class="project-item active" data-filter-item data-category="Visual dynamic effect">
+      <a href=".\assets\Work picture\index1.html" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+    
+          <img src="./assets/images/star.png" alt="基本的Three.js场景" loading="lazy">
+        </figure>
+    
+        <h3 class="project-title">网页设计基本的Three.js场景</h3>
+    
+        <p class="project-category">Visual dynamic effect</p>
+      </a>
+    </li>
+
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="Modeling/Product design" target="_blank">
+              <a href="https://www.bilibili.com/video/BV11J11YdEnn/?spm_id_from=333.999.0.0">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/if.png" alt="盲人药盒设计" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">盲人药盒设计</h3>
+
+                <p class="project-category">Product designn</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Modeling/Product design" target="_blank">
+              <a href="https://www.bilibili.com/video/BV1yJ11YdEHr/?spm_id_from=333.999.0.0&vd_source=5a5710d97e57bf6b77a748aaad308d93">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/KFC.jpg" alt="独立短视频拍摄剪辑" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">独立短视频拍摄剪辑</h3>
+
+                <p class="project-category">Product designn</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Modeling/Product design" target="_blank">
+              <a href=".\assets\pdf\身体对话——实现年龄共融.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/design1.png" alt="适老化设计" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">适老化设计</h3>
+
+                <p class="project-category">Modeling/Product design</p>
+
+              </a>
+            </li>
+
+           
+            
+
+
+          </ul>
+        <!-- Modal for Image Preview -->
+    <div id="imageModal" class="modal">
+      <span class="close" id="closeModal">&times;</span>
+      <img class="modal-content" id="modalImage">
+    </div>
+          
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <article class="self-recommendation-content" data-page="letter">
+        <header>
+          <h2 class="h2 article-title">Letter </h2>
+        </header>
+        
+        <section class="recommendation-content">
+          <figure class="photo-container">
+            <img src="./assets/images/my-photo.jpg" alt="My Photo" class="my-photo">
+          </figure>
+          
+          <div class="recommendation-text">
+            <p>尊敬的领导：</p>
+            <p>您好！</p>
+            <p>首先感谢您在百忙之中浏览我的自荐信。</p>
+            <p> 我是来自北京的大四学生王科蓝，经过大学三年的锻炼，我的整体素质有较大的提高。在
+            大学里我努力学习专业知识，刻苦钻研，并且积极参与学校活动，全国比赛。并且自学了许
+            多软件，非常荣幸有机会向贵公司表达我对实习生岗位的浓厚兴趣。 
+            在大学里我主修的课程有：新媒体交互技术，创意思维方式，智能装置设计，智能光影设
+            计，视听语言，设计心理学，新媒体艺术表达。 
+             <p> 在过去的学业中，我深耕于数字媒体领域，并在多个软件和工具上积累了丰富的经验。我
+            熟练掌握诸如 Photoshop（PS）、Illustrator（AI）、Premiere（PR）、After Effects（AE）、
+            Cinema 4D（C4D）、Touch Designer 等专业软件，这使我能够在不同领域进行创作和设计，从
+            而更好地满足项目需求。 </p>
+             <p> 我于大二时获选进入学校实验班，这一经历加深了我的专业理解和实际操作能力。在实验
+            班的培训中，为小班教学，同学都是整个学院排名前 20 的，我接触到了更多前沿的技术和思
+            维方式，培养了团队协作和创新精神。这不仅拓展了我的视野，也使我在数字媒体领域更具
+            竞争力。 </p>
+            <p> 我的编程能力也得到了加强，具备扎实的 Python 编程基础。这使我能够更好地理解数字
+            媒体艺术和技术的结合，为项目提供更多创新的可能性。我相信这样的技能组合，将使我在
+            您公司的实习中能够迅速适应并做出积极的贡献。  </p>
+            我对数字媒体的热情和执着，以及对贵公司所从事行业的浓厚兴趣，使我渴望成为贵公司
+            的一员。我希望通过这次实习机会，不仅能够学到更多实际应用的经验，还能为贵公司的项
+            目注入新鲜的思维和创意。 
+            期待有机会亲自向您展示我的专业技能和团队合作精神。感谢您花时间阅读我的自荐信，
+            期待能够获得面试机会，进一步探讨我如何为贵公司带来价值。 
+             
+                                                                         
+          </div>
+        </section>
+      </article>
+      
+      <style>
+        .self-recommendation {
+          background-color: #1e1e1e;
+          color: white;
+          padding: 20px;
+          text-align: left;
+        }
+      
+        .photo-container {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+      
+        .my-photo {
+          width: 200px;
+          height: auto;
+          border-radius: 50%;
+        }
+      
+        .recommendation-text {
+          font-size: 16px;
+          line-height: 1.8;
+          max-width: 800px;
+          margin: 0 auto;
+          color: white;
+        }
+      </style>
+      
+
+
+
+     
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
